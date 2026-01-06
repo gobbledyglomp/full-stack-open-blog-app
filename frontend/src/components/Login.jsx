@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { Form, Button, Container, Card, Row } from 'react-bootstrap'
+import { Form, Button, Container, Card, Row, Alert } from 'react-bootstrap'
+import { InfoCircle } from 'react-bootstrap-icons'
 
 import useNotification from '../hooks/useNotification'
 import useLogin from '../hooks/useLogin'
@@ -22,7 +23,18 @@ const Login = () => {
 
   return (
     <>
-      <Card className="mt-5 w-50 mx-auto">
+      <Alert variant="info" className="mt-3 w-75 mx-auto">
+        <Alert.Heading>
+          <InfoCircle className="me-2" />
+          Demo Account
+        </Alert.Heading>
+        <p>
+          Try username <strong>guest</strong> and password{' '}
+          <strong>guest</strong>
+        </p>
+      </Alert>
+
+      <Card className="mt-4 w-50 mx-auto">
         <Card.Header as="h4" className="text-center">
           Log in to application
         </Card.Header>
