@@ -33,12 +33,8 @@
     </a>
 </p>
 
-<a href="https://full-stack-open-blog-app.onrender.com/">
-  <img src="https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white" alt="Hosted on Render" />
-</a>
-<a href="https://full-stack-open-blog-app.onrender.com/">
-  <img src="https://img.shields.io/badge/Visit-Website-blue?style=for-the-badge&logo=safari" alt="Visit Website" />
-</a>
+<a href="https://full-stack-open-blog-app.onrender.com/"><img src="https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white" alt="Hosted on Render" /></a>
+<a href="https://full-stack-open-blog-app.onrender.com/"><img src="https://img.shields.io/badge/Visit-Website-blue?style=for-the-badge&logo=safari" alt="Visit Website" /></a>
 
 <h2>
     Main repo
