@@ -117,7 +117,9 @@ const Blog = ({ id }) => {
       <Card.Body className="mt-2">
         {/* URL */}
         <div className="mb-2">
-          <a href={blog.url}>{blog.url}</a>
+          <a href={blog.url} target="_blank" rel="noreferrer">
+            {blog.url}
+          </a>
         </div>
         {/* Likes */}
         <div className="mb-2">
