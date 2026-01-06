@@ -24,7 +24,7 @@
 </h2>
 
 <p>
-    This project is deployed and hosted on **Render**.
+    This project is deployed and hosted on <strong>Render</strong>.
 </p>
 
 <p>
