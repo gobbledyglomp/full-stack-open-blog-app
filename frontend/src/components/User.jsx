@@ -17,6 +17,10 @@ const User = ({ id }) => {
 
   const user = users.find((user) => user.id === id)
 
+  if (user === undefined) {
+    return 'User not found'
+  }
+
   return (
     <Card className="mt-3 mx-auto w-75">
       <Card.Body className="mt-2">
