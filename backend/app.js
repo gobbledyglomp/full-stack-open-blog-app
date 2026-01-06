@@ -46,6 +46,7 @@ app.use('/api/login', loginRouter)
 if (config.ENV === 'test') {
   app.use('/api/testing', testingRouter)
 }
+
 app.use((req, res, next) => {
   if (req.method === 'GET' && !req.path.startsWith('/api')) {
     return res.sendFile(path.join(__dirname, 'dist', 'index.html'))
